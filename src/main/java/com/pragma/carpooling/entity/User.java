@@ -1,11 +1,15 @@
 package com.pragma.carpooling.entity;
 
-import lombok.*;
+
+
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
 
 import javax.persistence.Entity;
 import javax.persistence.Id;
 import javax.persistence.Table;
-import java.util.Objects;
 
 @Entity
 @Table(name = "tbl_user")
